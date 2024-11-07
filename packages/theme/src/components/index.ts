@@ -63,6 +63,7 @@ import { NativeTable } from "./native-table"
 import { NumberInput } from "./number-input"
 import { Pagination } from "./pagination"
 import { PagingTable } from "./paging-table"
+import { PasswordInput } from "./password-input"
 import { PieChart } from "./pie-chart"
 import { PinInput } from "./pin-input"
 import { Popover } from "./popover"
@@ -163,6 +164,7 @@ export const components = {
   NumberInput,
   Pagination,
   PagingTable,
+  PasswordInput,
   PieChart,
   PinInput,
   Popover,

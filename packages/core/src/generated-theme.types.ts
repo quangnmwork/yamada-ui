@@ -622,6 +622,10 @@ export interface GeneratedTheme extends UITheme {
       sizes: "lg" | "md" | "sm" | "xl" | ({} & string)
       variants: "simple" | "striped" | "unstyled" | ({} & string)
     }
+    PasswordInput: {
+      sizes: "lg" | "md" | "sm" | "xl" | "xs" | ({} & string)
+      variants: {} & string
+    }
     PieChart: {
       sizes: "lg" | "md" | "sm" | ({} & string)
       variants: {} & string
